@@ -1,6 +1,6 @@
 # Zelf data verzamelen
 
-In de eerste opdracht van deze module hebben we de data van een [autorit](/big-data/dataverwerken) verwerkt, maar dat is zo passief. Net als de temperatuur-data van de KNMI is het een bestaande en geprepareerde data-set die je 'alleen nog maar even' door je programma heen hoeft te halen om de gevraagde data eruit te filteren en het in sommige gevallen (ook) in een voorgeschreven grafiek hoeft te presenteren. Saai.
+In de eerste opdracht van deze module hebben we de data van een autorit verwerkt, maar dat is zo passief. Net als de temperatuur-data van de KNMI is het een bestaande en geprepareerde data-set die je 'alleen nog maar even' door je programma heen hoeft te halen om de gevraagde data eruit te filteren en het in sommige gevallen (ook) in een voorgeschreven grafiek hoeft te presenteren. Saai.
 
 Je eigen data verzamelen, analyseren om er interessante gegevens uit te halen en die te presenteren naar anderen is natuurlijk veel leuker. Dat gaan we in deze opdracht doen.
 
