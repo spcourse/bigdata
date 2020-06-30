@@ -2,8 +2,4 @@ name: bigdata-nl
 content:
 
     Inleiding: .
-
-    Big Data:
-        Leer een dataset verwerken en analyseren: /python/nl/files
-        Verwerk sensordata van een autorit: autorit
-        Zoek naar inzichten in temperatuurdata van het KNMI: temperatuur
+    Leer een dataset verwerken en analyseren: /python/nl/files
