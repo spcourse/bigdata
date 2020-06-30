@@ -6,8 +6,8 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 Bestanden: 
 
-- ![DeBiltTempMaxOLD.txt](../../data/DeBiltTempMaxOLD.txt)
-- ![DeBiltTempMinOLD.txt](../../data/DeBiltTempMinOLD.txt)
+- [DeBiltTempMaxOLD.txt](../../data/DeBiltTempMaxOLD.txt)
+- [DeBiltTempMinOLD.txt](../../data/DeBiltTempMinOLD.txt)
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
