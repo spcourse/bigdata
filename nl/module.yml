@@ -2,6 +2,6 @@ name: bigdata-nl
 content:
 
     Overview: .
-    Learn to analyse and process a data set: /python/nl/files
-    Process sensor data of a car ride: autorit
-    Dig around in KNMI temperature data: temperatuur
+    Leer een dataset verwerken en analyseren: /python/nl/files
+    Verwerk sensordata van een autorit: autorit
+    Zoek naar inzichten in temperatuurdata van het KNMI: temperatuur
