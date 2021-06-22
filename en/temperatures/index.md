@@ -4,14 +4,14 @@
 
 Let's do our part for the climate discussion and analyze the data provided by the ECA (European Climate Assessment) [available](http://eca.knmi.nl/dailydata/predefinedseries.php) in big data files. We'll limit ourselves to the data pertaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
 
-Files: 
+Files:
 
 - [DeBiltTempMaxOLD.txt](../../data/DeBiltTempMaxOLD.txt)
 - [DeBiltTempMinOLD.txt](../../data/DeBiltTempMinOLD.txt)
 
 Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
-> Note! The data files also contain all sorts of clarification. You're supposed to leave that in the file (don't change the contents of the file). Your Python program should be implemented in such a way that it skips those lines when it processes the file. Also, do not change the file names. 
+> **Note:** The data files also contain all sorts of clarification. You're supposed to leave that in the file (don't change the contents of the file). Your Python program should be implemented in such a way that it skips those lines when it processes the file. Also, do not change the file names.
 
 Create a program **temperature.py** that parses the file line by line and answers the following questions.
 
@@ -25,7 +25,7 @@ but
 
      The highest temperature was 34.5 degrees Celsius and was measured at 13 may 1967.
 
-Tip: make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`.
+Tip: make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Try to make use of functions in a logical way!
 
 ### Assignment 2: cold colder coldest
 
@@ -33,7 +33,7 @@ What is the longest period of uninterrupted days that had freezing temperatures 
 
 ### Assignment 3: Summer days and tropical days
 
-A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. Make a graph where both the number of summer days and tropical days is displayed for each year. A neat solution would be to use a barchart. 
+A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. Make a graph where both the number of summer days and tropical days is displayed for each year. A neat solution would be to use a barchart.
 
 ### Assignment 4: First heat wave
 
@@ -50,5 +50,3 @@ You can see above that there are a couple of statements that need to be `print`e
 Now you're ready to test with checkpy:
 
     checkpy temperature
-
-
