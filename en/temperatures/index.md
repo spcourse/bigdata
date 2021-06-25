@@ -11,7 +11,7 @@ Files:
 
 Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
-> **Note:** The data files also contain all sorts of clarification. You're supposed to leave that in the file (don't change the contents of the file). Your Python program should be implemented in such a way that it skips those lines when it processes the file. Also, do not change the file names.
+> **Note:** The data files also contain all sorts of clarification. You're supposed to leave that in the file (don't change the contents of the file). Your Python program should be implemented in such a way that it skips those lines when it processes the file. Think of a way to only process a line from the file when it is a part of the data. Do not change the file names.
 
 Create a program **temperature.py** that parses the file line by line and answers the following questions.
 
@@ -29,11 +29,13 @@ Tip: make a separate function that takes a number like `19670513` and converts i
 
 ### Assignment 2: cold colder coldest
 
-What is the longest period of uninterrupted days that had freezing temperatures (maximum temperature below 0◦C)? What was the date of the last day of this period of time?
+What is the longest period of uninterrupted days of freezing temperatures? Use the maximum temperature for each day. (If you would use the minimum temperature, you would find the longest period days that had temperatures below 0◦C). What was the date of the last day of this period of time?
+
+Print the answer to both questions in one line, such that `check50` understands your output.
 
 ### Assignment 3: Summer days and tropical days
 
-A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. Make a graph where both the number of summer days and tropical days is displayed for each year. A neat solution would be to use a barchart.
+A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. All tropical days are also summer days. Make a graph where both the number of summer days and tropical days is displayed for each year. A neat solution would be to use a barchart.
 
 ### Assignment 4: First heat wave
 
