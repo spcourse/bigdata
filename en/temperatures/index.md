@@ -73,11 +73,11 @@ Write a function named `get_first_heat_wave()` that returns the *first* year tha
 
 Print the result of the function in a neatly formatted line.
 
-### Clean code and clean output
+### Design: clean code and clean output
 
 Make sure the code of all your assignments is written in multiple functions. Break up functions where needed. Do not use global variables from within functions; make sure that required variables are always passed as parameters to the function (ask an assistant if this is not clear)!
 
-You can see above that there are a couple of statements that need to be `print`ed and one graph has to be created. Make sure the requested information is `print`ed on separate lines, in the correct order.
+There are a couple of statements that need to be `print`ed and one graph has to be created. Make sure the requested information is `print`ed on separate lines, in the correct order, and that all `prints` are outside the requested functions.
 
 Try to collect all executing statements in one place; make sure you first define all functions, and then call each of them.
 
