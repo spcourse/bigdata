@@ -9,7 +9,7 @@ Files:
 - [DeBiltTempMaxOLD.txt](../../data/en/DeBiltTempMaxOLD.txt)
 - [DeBiltTempMinOLD.txt](../../data/en/DeBiltTempMinOLD.txt)
 
-Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
+Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature on January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
 Create a program named **temperature.py**. Eventually, it should read the datafiles and answer the questions below.
 
@@ -17,7 +17,7 @@ Create a program named **temperature.py**. Eventually, it should read the datafi
 
 The first lines in the datafile contain all sorts of clarification and extra information. It is important to keep this information in the file, to make sure that anyone who reads the file can understand its contents. However, our program should be implemented in such a way that it skips these lines when it processes the file.
 
-Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data untill it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
+Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data until it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
 
 You should then be able to load all data through:
 
@@ -32,7 +32,7 @@ Where `max_dates` and `min_dates` are both lists of dates like `'19670513'`, and
 
 ### Assignment 1: extreme temperatures
 
-What were the highest and lowest temperature that were measured in De Bilt since the start of the 20st century? What days were they measured?
+What were the highest and lowest temperatures that were measured in De Bilt since the start of the 20th century? What days were they measured?
 
 Write two functions named `get_highest_temp()` and `get_lowest_temp()` that return the highest and the lowest temperatures and their respective dates. Each function should accept two arguments: a list of dates and a list of temperatures". Calling the functions and getting their results should look as follows:
 
@@ -45,19 +45,19 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
 
 but something like:
 
-     The highest temperature was 34.5 degrees Celsius and was measured at 13 may 1967.
+     The highest temperature was 34.5 degrees Celsius and was measured on 13 may 1967.
 
 *You are not allowed to use built-in functions like `min()` or `max()` for this exercise. There should be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
 
 **Tip:** make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Make use of functions in a logical way!
 
-> If you need an extra challenge, find a way to reduce your duplicate code; the code that finds the minumum temperature and its date shouldn't be too different from the code that finds the maximum temperature and its date. Create a third function that can find both the maximum and minimum temperature depending on its inputs; you should only need one extra function argument for this. Call this function in `get_highest_temp()` and `get_lowest_temp()`. <br><br> _This extra challenge is not a required part of the exercise._
+> If you need an extra challenge, find a way to reduce your duplicate code; the code that finds the minimum temperature and its date shouldn't be too different from the code that finds the maximum temperature and its date. Create a third function that can find both the maximum and minimum temperature depending on its inputs; you should only need one extra function argument for this. Call this function in `get_highest_temp()` and `get_lowest_temp()`. <br><br> _This extra challenge is not a required part of the exercise._
 
 ### Assignment 2: cold colder coldest
 
 What is the longest period of uninterrupted days that had no temperatures above 0◦C (i.e. **maximum** temperature below 0◦C)? What was the date of the last day of this period of time?
 
-Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variablenames.
+Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
 Print the answer to both questions in one neatly formatted line, such that `check50` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
 
