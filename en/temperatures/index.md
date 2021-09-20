@@ -37,7 +37,7 @@ What were the highest and lowest temperatures that were measured in De Bilt sinc
 Write two functions named `get_highest_temp()` and `get_lowest_temp()` that return the highest and the lowest temperatures and their respective dates. Each function should accept two arguments: a list of dates and a list of temperatures". Calling the functions and getting their results should look as follows:
 
     highest_temp_date, highest_temp = get_highest_temp(max_dates, max_temps)
-    lowest_temp_date, lowest_temp = get_lowest_temp(max_dates, max_temps)
+    lowest_temp_date, lowest_temp = get_lowest_temp(min_dates, min_temps)
 
  Make sure your program calls the functions as above, and then `print`s the dates properly to the screen. Don't print:
 
