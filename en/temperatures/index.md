@@ -67,7 +67,7 @@ A day is a summer day when the maximum temperature is 25 degrees Celsius or high
 
 ### Assignment 4: first heat wave
 
-In the Netherlands we speak of a heat wave when the maximum temperature has been higher than 25◦C (summer days) for at least five uninterrupted days of which at least three days had maximum temperatures of at least 30◦C (tropical days).
+In the Netherlands we speak of a heat wave when the maximum temperature has been 25◦C or higher (summer days) for at least five uninterrupted days of which at least three days had maximum temperatures of at least 30◦C (tropical days).
 
 Write a function named `get_first_heat_wave()` that returns the *first* year that a heatwave was found within the dataset following this definition. The function should accept two arguments: `max_dates` and `max_temps`.
 
