@@ -10,6 +10,8 @@ The sensor data is available in the file `CarRideData.csv` and can be downloaded
 
 At the top of the file is a short short description about the information contained in each field. This is typically how a data file is formatted: easy to read automatically, but sometimes it lacks clear descriptions of what each field precisely is. It should still be manageable to deduct how to use each field. So first try to figure out which data is contained in what field and how each part of it is represented, before discussing with your fellow students about the data file. It's (a) good practice!
 
+> Note that the speeds are given in meters per second ($$m/s$$), not kilometers an hour. So you might have to convert the speeds in some places.
+
 Write a program **car_ride.py** that traverses the data file, processes said data and answers the following questions.
 
 ## Traveled distance
