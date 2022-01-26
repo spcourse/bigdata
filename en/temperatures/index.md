@@ -49,7 +49,7 @@ but something like:
 
      The highest temperature was 34.5 degrees Celsius and was measured on 13 may 1967.
 
-*You are not allowed to use built-in functions like `min()` or `max()` for this exercise. There should be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
+*You are supposed to write a loop that finds the minimum and maximum yourself. So, you're not allowed to use built-in functions like `min()`, `max()`, `.sort()`, or `sorted()` for this exercise. There should be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
 
 **Tip:** make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Make use of functions in a logical way!
 
