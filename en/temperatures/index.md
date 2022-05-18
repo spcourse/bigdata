@@ -11,7 +11,7 @@ Files:
 
 Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature on January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
-> Note that the temperature is given in 10th of degrees. So 18.5 degrees Celsius is `815`.
+> Note that the temperature is given in 10th of degrees. So 18.5 degrees Celsius is `185`.
 
 Create a program named **temperature.py**. Eventually, it should read the datafiles and answer the questions below.
 
