@@ -65,7 +65,7 @@ Print the answer to both questions in one neatly formatted line, such that `chec
 
 ### Assignment 3: summer days and tropical days
 
-A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. All tropical days are also summer days. Make a graph where both the number of summer days and tropical days is displayed for each year.
+A day is a summer day when the maximum temperature is 25 degrees Celsius or higher. On a tropical day that maximum temperature would even reach 30 degrees. All tropical days are also summer days. Make a graph where the number of summer days is displayed for each year. Then make another graph that displays the tropical days for each year.
 
 A neat solution to display this data would be to use a barchart. A bar chart can be made by using `plt.bar(x, y)`, where `x` can be either a list of nominal variables (in our case the years) **or** a list of coordinates on which to center the bars, and where `y` is the height of the bars (summer or tropical days). An example using nominal values:
 
