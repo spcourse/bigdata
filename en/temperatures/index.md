@@ -45,7 +45,7 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
 
      Max 34.5 at 19670513
 
-but something like:
+but write out the entire month, something like:
 
      The highest temperature was 34.5 degrees Celsius and was measured on 13 may 1967.
 
