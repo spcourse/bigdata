@@ -57,7 +57,7 @@ but write out the entire month, something like:
 
 ### Assignment 2: cold colder coldest
 
-What is the longest period of uninterrupted days that had no temperatures above 0◦C (i.e. **maximum** temperature below 0◦C)? What was the date of the last day of this period of time?
+What is the longest period of uninterrupted days that had no temperatures above or equal to 0◦C (i.e. **maximum** temperature below 0◦C)? What was the date of the last day of this period of time?
 
 Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
