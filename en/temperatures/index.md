@@ -61,7 +61,7 @@ What is the longest period of uninterrupted days that had no temperatures above 
 
 Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
-Print the answer to both questions in one neatly formatted line, such that `check50` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
+Print the answer to both questions in one neatly formatted line, such that `checkpy` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
 
 ### Assignment 3: summer days and tropical days
 
