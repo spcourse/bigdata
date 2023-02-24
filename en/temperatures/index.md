@@ -28,7 +28,7 @@ You should then be able to load all data through:
     min_dates, min_temps = read_data('DeBiltTempMinOLD.txt')
 
 
-Where `max_dates` and `min_dates` are both lists of dates like `'19670513'`, and `max_temps` and `min_dates` are lists of temperatures.
+Where `max_dates` and `min_dates` are both lists of dates like `'19670513'`, and `max_temps` and `min_temps` are lists of temperatures.
 
 > What datatype should your temperatures be? Is there anything we need to do to the temperatures to make it more readable or easier to work with in the rest of our program? Check the information in the first part of the `.txt` files.
 
