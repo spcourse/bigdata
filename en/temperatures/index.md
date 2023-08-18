@@ -59,7 +59,8 @@ but instead write out the entire month, so something like:
 
 > *Tip:* make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Make use of functions in a logical way! As always, start by making the problem smaller and test your functions with just one simple input first.
 
-<details markdown="1"><summary  markdown="span"> **Extra challenge:** </summary> If you need an extra challenge, find a way to reduce your duplicate code; the code that finds the minimum temperature and its date shouldn't be too different from the code that finds the maximum temperature and its date. Create a third function that can find both the maximum and minimum temperature depending on its inputs; you should only need one extra function argument for this. Call this function in `get_highest_temp()` and `get_lowest_temp()`. _This extra challenge is not a required part of the exercise._ </details>
+<details markdown="1"><summary  markdown="span"> **Extra challenge:** </summary> If you need an extra challenge, find a way to reduce your duplicate code; the code that finds the minimum temperature and its date shouldn't be too different from the code that finds the maximum temperature and its date. Create a third function that can find both the maximum and minimum temperature depending on its inputs; you should only need one extra function argument for this. Call this function in `get_highest_temp()` and `get_lowest_temp()`. _This extra challenge is not a required part of the exercise._
+</details>
 
 ### Assignment 2: cold colder coldest
 
