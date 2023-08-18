@@ -23,7 +23,7 @@ The first lines in the datafile contain all sorts of clarification and extra inf
 
 Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data until it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
 
-> **Making the problem smaller:** In order to filter out the lines with extra information, you'll need to find some condition that can distinguish the relevant lines. To actually test this, it would be very useful to print each of lines and if your condition is met, but this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a separate new file and using these lines to test your solution first.
+> **Making the problem smaller:** In order to filter out the lines with extra information, you'll need to find some condition that can distinguish the relevant lines. To actually test this, it would be very useful to print each of the lines *and if your condition is met*, but this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a separate new file and using these lines to test your solution first.
 
 You should be able to load all data through:
 
@@ -47,7 +47,7 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
 
 *You are supposed to write a loop that finds the minimum and maximum yourself. So, you're not allowed to use built-in functions like `min()`, `max()`, `.sort()`, or `sorted()` for this exercise. There should be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
 
-> **Making the problem smaller:** Verifying your code is finding the correct minimum and maximum will also be difficult working when with these large temperature and date lists. One possible solution is to make some simple test lists with a few elements and try those first. Also try to experiment with some different *edgecases* your code might encounter, like when the maximum is actually the first or the last element in the list. This serves to try and ensure your code works in all cases, and not just the one small test you wrote. 
+> **Making the problem smaller:** Verifying your code is finding the correct minimum and maximum can also be difficult working when with these large temperature and date lists. One possible solution is to make some simple test lists with a few elements and try those first. Also try to experiment with some different *edge* cases your code might encounter, like when the maximum is actually the first or the last element in the list. This serves to try and ensure your code works in all cases, and not just the one small test you wrote first.
 
 Make sure your program calls the functions as above, and then *afterwards* `print`s the dates properly to the screen. For this you should **not** print:
 
