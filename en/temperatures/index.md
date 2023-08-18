@@ -95,6 +95,7 @@ plt.show()
 Write a helper function that creates and plots a barchart and name it appropriately. The function should get a list of years, and a list containing a number for each year. Call the function two times, once with the data for summer days, and once with tropical days.
 
 <details markdown="1"><summary  markdown="span"> **Extra challenge:** </summary> If you are up for a challenge, you can also use coordinates and create a barchart that has both summer and tropical days in it! Have a look at and then run the example below:
+
 ~~~
 import matplotlib.pyplot as plt
 
