@@ -11,7 +11,9 @@ Files:
 - [DeBiltTempMaxOLD.txt](../../data/en/DeBiltTempMaxOLD.txt)
 - [DeBiltTempMinOLD.txt](../../data/en/DeBiltTempMinOLD.txt)
 
-Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. In the files we can see the maximum and minimum temperature on January 1st 1901 were -3.1 and -6.8 degrees Celsius, respectively. *Note that the temperature is given in 10th of degrees, so 18.5 degrees Celsius would be `185`, as also described in the header*. Make sure you understand the structure of these files before moving on to the next step.
+Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. In the files we can see the maximum and minimum temperature on January 1st 1901 were -3.1 and -6.8 degrees Celsius, respectively.
+
+*Note that the temperature in the files is given in 10th of degrees, so 18.5 degrees Celsius would be `185`, as also described in the header. Make sure you understand the structure of these files before moving on to the next step.*
 
 Create a program named **temperature.py**. Eventually, it should read the datafiles and answer the questions below.
 
