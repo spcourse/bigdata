@@ -125,9 +125,9 @@ In the Netherlands we speak of a heat wave when the maximum temperature has been
 
 Write a function named `get_first_heat_wave()` that returns the *first* year that a heatwave was found within the dataset following this definition. The function should accept two arguments: `max_dates` and `max_temps`.
 
-> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
-
 Print the result of the function in a neatly formatted line.
+
+> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
 
 ### Design: clean code and clean output
 
