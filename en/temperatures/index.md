@@ -68,7 +68,7 @@ What is the longest period of uninterrupted days that had no temperatures above 
 
 Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
-> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *wouldn't* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
+> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results, so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *wouldn't* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
 
 Print the answer to both questions in one neatly formatted line, such that `checkpy` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
 
@@ -125,7 +125,7 @@ In the Netherlands we speak of a heat wave when the maximum temperature has been
 
 Write a function named `get_first_heat_wave()` that returns the *first* year that a heatwave was found within the dataset following this definition. The function should accept two arguments: `max_dates` and `max_temps`.
 
-> **Making the problem smaller:** This problem is a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to try to create some smaller lists and test with those first.
+> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
 
 Print the result of the function in a neatly formatted line.
 
