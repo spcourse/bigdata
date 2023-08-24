@@ -11,9 +11,9 @@ Files:
 - [DeBiltTempMaxOLD.txt](../../data/en/DeBiltTempMaxOLD.txt)
 - [DeBiltTempMinOLD.txt](../../data/en/DeBiltTempMinOLD.txt)
 
-Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature on January 1st 1901 was -3.1 (-6.8) degrees Celsius.
+Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. In the files we can see the maximum and minimum temperature on January 1st 1901 were -3.1 and -6.8 degrees Celsius, respectively.
 
-> Note that the temperature is given in 10th of degrees. So 18.5 degrees Celsius is `185`.
+*Note that the temperature in the files is given in 10th of degrees, so 18.5 degrees Celsius would be `185`, as also described in the header. Make sure you understand the structure of these files before moving on to the next step.*
 
 Create a program named **temperature.py**. Eventually, it should read the datafiles and answer the questions below.
 
@@ -23,7 +23,7 @@ The first lines in the datafile contain all sorts of clarification and extra inf
 
 Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data until it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
 
-> **Making the problem smaller:** In order to filter out the lines with extra information, you'll need to find some condition that can distinguish the relevant lines. To actually test this, it would be very useful to print each of the lines *and if your condition is met*, but this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a separate new file and using these lines to test your solution first.
+> **Making the problem smaller:** In order to filter out the lines with extra information, you'll need to find some condition that can distinguish the relevant lines. To actually test this, it would be very useful to print each of the lines *and if your condition is met*, but this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a separate new file and using this file to test your solution first.
 
 You should be able to load all data through:
 
@@ -34,7 +34,7 @@ You should be able to load all data through:
 
 Where `max_dates` and `min_dates` are both lists of dates like `'19670513'`, and `max_temps` and `min_temps` are lists of temperatures.
 
-> What datatype should your temperatures be? Is there anything we need to do to the temperatures to make it more readable or easier to work with in the rest of our program? Check the information in the first part of the `.txt` files.
+***Tip:*** What datatype should your temperatures be? Is there anything we need to do to the temperatures to make it more readable or easier to work with in the rest of our program? Check the information in the header (the first part) of the `.txt` files.
 
 ### Assignment 1: extreme temperatures
 
@@ -68,7 +68,7 @@ but instead write out the entire month, so something like:
 
      The highest temperature was 34.5 degrees Celsius and was measured on 13 may 1967.
 
-> *Tip:* make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Make use of functions in a logical way! As always, start by making the problem smaller and test your functions with just one simple input first.
+***Tip:*** Make a separate function that takes a number like `19670513` and converts it into a more readable expression like `13 may 1967`. Make use of functions in a logical way! As always, start by making the problem smaller and test your functions with just one simple input first.
 
 <details markdown="1"><summary  markdown="span"> **Extra challenge:** </summary> If you need an extra challenge, find a way to reduce your duplicate code; the code that finds the minimum temperature and its date shouldn't be too different from the code that finds the maximum temperature and its date. Create a third function that can find both the maximum and minimum temperature depending on its inputs; you should only need one extra function argument for this. Call this function in `get_highest_temp()` and `get_lowest_temp()`. _This extra challenge is not a required part of the exercise._
 </details>
@@ -79,7 +79,7 @@ What is the longest period of uninterrupted days that had no temperatures above 
 
 Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
-> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *wouldn't* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
+> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results, so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *wouldn't* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
 
 Print the answer to both questions in one neatly formatted line, such that `checkpy` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
 
@@ -136,9 +136,9 @@ In the Netherlands we speak of a heat wave when the maximum temperature has been
 
 Write a function named `get_first_heat_wave()` that returns the *first* year that a heatwave was found within the dataset following this definition. The function should accept two arguments: `max_dates` and `max_temps`.
 
-> **Making the problem smaller:** This problem is a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to try to create some smaller lists and test with those first.
-
 Print the result of the function in a neatly formatted line.
+
+> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
 
 ### Design: clean code and clean output
 
