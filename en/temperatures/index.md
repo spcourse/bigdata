@@ -23,7 +23,7 @@ The first lines in the datafile contain all sorts of clarification and extra inf
 
 Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data until it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
 
-> **Making the problem smaller:** In order to filter out the lines with extra information, you'll need to find some condition that can distinguish the relevant lines. To actually test this, it would be very useful to print each of the lines *and if your condition is met*, but this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a separate new file and using this file to test your solution first.
+> **Making the problem smaller:** In order to filter out the lines with extra information, you will need to find some condition that can distinguish the relevant lines. To test your condition, it would be useful to print each of the lines *and add an extra print when your condition is met*. However, this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a new file and using this file to test your solution first.
 
 You should be able to load all data through:
 
@@ -77,7 +77,7 @@ What is the longest period of uninterrupted days that had no temperatures above 
 
 Write a function named `get_longest_freezing()` that returns both the longest number of days with uninterrupted freezing temperatures and the date of the last day of this period. The function should accept two arguments: `max_dates` and `max_temps`. Take a good look at the example of the calls to the functions in assignment 1, and think of logical variable names.
 
-> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results, so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *wouldn't* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
+> **Making the problem smaller:** For these next few assignments, use the same small test lists from before and print out any intermediate results, so you can verify the correctness of your algorithm. Try and consider any edge cases for these problems: Can you think of an example where your code *would not* work? Once you're convinced your code works in all cases, you should of course remove any tests prints from your final function.
 
 Print the answer to both questions in one neatly formatted line, such that `checkpy` understands your output. Remember to reuse any formatting functions you wrote before, and do not put your `print` within the function `get_longest_freezing()`.
 
@@ -136,7 +136,7 @@ Write a function named `get_first_heat_wave()` that returns the *first* year tha
 
 Print the result of the function in a neatly formatted line.
 
-> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If you're code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
+> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If your code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
 
 ### Design: clean code and clean output
 
