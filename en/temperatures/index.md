@@ -45,9 +45,20 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
     highest_temp_date, highest_temp = get_highest_temp(max_dates, max_temps)
     lowest_temp_date, lowest_temp = get_lowest_temp(min_dates, min_temps)
 
-*You are supposed to write a loop that finds the minimum and maximum yourself. So, you're not allowed to use built-in functions like `min()`, `max()`, `.sort()`, or `sorted()` for this exercise. There should be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
+*You are supposed to write a loop that finds the minimum and maximum yourself. You are not allowed to use built-in functions like `min()`, `max()`, `.sort()`, or `sorted()` for this exercise. There should also be no `print` statements within your `get_highest_temp()` and `get_lowest_temp()` functions.*
 
-> **Making the problem smaller:** Verifying your code is finding the correct minimum and maximum can also be difficult working when with these large temperature and date lists. One possible solution is to make some simple test lists with a few elements and try those first. Also try to experiment with some different *edge* cases your code might encounter, like when the maximum is actually the first or the last element in the list. This serves to try and ensure your code works in all cases, and not just the one small test you wrote first.
+> **Making the problem smaller:** Verifying that your code determines the correct minimum and maximum values can be challenging when dealing with large temperature and date lists. However, one advantage of using function is the ability to test them in isolation. For example, you can test the `get_highest_temp` function using straightforward test inputs:
+
+~~~python
+max_dates = ["day 1", "day 2", "day 3", "day 4]
+max_temps = [12.5, -18.8, 19.2, 9.3]
+highest_temp_date, highest_temp = get_highest_temp(max_dates, max_temps)
+print(highest_temp_date, highest_temp)
+# Expected output:
+# day 3, 19.2
+~~~
+
+> Generally, it's wise to test functions with relatively small inputs where the expected output is easy to predict. Effective test cases can uncover potential programming errors. However, the mentioned example doesn't cover all possible scenarios. Even if this test produces the expected outcome, there could still be underlying issues in your code. The key is to devise test cases that are both straightforward and capable of revealing programming errors. Experiment with various edge cases your code might encounter, such as when the maximum value is the first or last element in the list. This approach helps ensure your code functions correctly in all scenarios, not just the initial simple test.
 
 Make sure your program calls the functions as above, and then *afterwards* `print`s the dates properly to the screen. For this you should **not** print:
 
