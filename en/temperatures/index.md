@@ -49,7 +49,7 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
 
 > **Making the problem smaller:** Verifying that your code determines the correct minimum and maximum values can be challenging when dealing with large temperature and date lists. However, one of the advantages of using functions is the ability to test them in isolation using some simple inputs, where you can easily verify and debug your solution.
 >
-> For this assignment, creating these simple tests would just require a list with some temperatures and a list with some dates. You can make these lists yourself, or slice them from the original larger list, as long as they are short enough that you can easily check the minimum/maximum yourself, and print all of the steps from your algorithm if needed.
+> For this assignment, creating these simple tests would just require a list with some temperatures and a list with some dates. You can make these lists yourself, or slice them from the original larger list, as long as they are short enough that you can easily check the minimum/maximum yourself, and you can print all the steps of your function if needed.
 >
 > <details markdown="1"><summary  markdown="span"> *Click here for an example test:* </summary>
 > You could test the `get_highest_temp` function using some straightforward test inputs:
@@ -61,7 +61,8 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
     # Expected output:
     # day 3, 19.2
 >
-> Generally, it's wise to test functions with relatively small inputs where the expected output is easy to predict. Effective test cases can uncover potential programming errors. However, the mentioned example doesn't cover all possible scenarios. Even if this test produces the expected outcome, there could still be underlying issues in your code. The key is to devise test cases that are both straightforward and capable of revealing programming errors. Experiment with various edge cases your code might encounter, such as when the maximum value is the first or last element in the list. This approach helps ensure your code functions correctly in all scenarios, not just the initial simple test. </details>
+> Generally, it's wise to test functions with relatively small inputs where the expected output is easy to predict. Effective test cases can uncover potential programming errors. However, the mentioned example doesn't cover all possible scenarios. Even if this test produces the expected outcome, there could still be underlying issues in your code. The key is to devise test cases that are both straightforward and capable of revealing programming errors. Experiment with various edge cases your code might encounter, such as when the maximum value is the first or last element in the list. This approach helps ensure your code functions correctly in all scenarios, not just the initial simple test.
+> </details>
 
 Make sure your program calls the functions as above, and then *afterwards* `print`s the dates properly to the screen. For this you should **not** print:
 
