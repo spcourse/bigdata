@@ -17,6 +17,16 @@ Download the files, open them and read the headers (at the top of the file) on h
 
 Create a program named **temperature.py**. Eventually, it should read the datafiles and answer the questions below.
 
+## Constraints
+
+Throughout the following assignment:
+
+* You are allowed to import `matplotlib`.
+
+* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, `split()`, and `strip()`.
+
+* You cannot use the functions `min()`, `max()`, and `.index()`
+
 ### Assignment 0: reading the data
 
 The first lines in the datafile contain all sorts of clarification and extra information. It is important to keep this information in the file, to make sure that anyone who reads the file can understand its contents. However, our program should be implemented in such a way that it skips these lines when it processes the file.

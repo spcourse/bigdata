@@ -14,13 +14,19 @@ At the top of the file is a short short description about the information contai
 
 Write a program **car_ride.py** that traverses the data file, processes said data and answers the following questions.
 
-## Traveled distance
+## Specifications
 
-Create a graph of the speed of the car (km/h) as a function of the time and use the data to estimate the traveled distance in total.
+* Create a graph of the speed of the car (km/h) as a function of the time and use the data to estimate the traveled distance in total.
 
-Create a graph of the position of the car by making a plot of the latitude and longitude. Color the route green where the speed of the car was more than 50 km/hour. Color the route red where the speed of the car was less than 50 km/hour.
+* Create a graph of the position of the car by making a plot of the latitude and longitude. Color the route green where the speed of the car was more than 50 km/hour. Color the route red where the speed of the car was less than 50 km/hour.
 
-Also make sure your program prints the total travelled distance (in meters).
+* Also make sure your program prints the total travelled distance (in meters).
+
+## Constraints
+
+* You are allowed to import `matplotlib`.
+
+* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, `split()`, and `strip()`.
 
 ## Testing
 
