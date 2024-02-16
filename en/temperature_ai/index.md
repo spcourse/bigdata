@@ -29,9 +29,9 @@ Throughout the following assignment:
 
 ### Assignment 0: reading the data
 
-The first lines in the datafile contain all sorts of clarification and extra information. It is important to keep this information in the file, to make sure that anyone who reads the file can understand its contents. However, our program should be implemented in such a way that it skips these lines when it processes the file.
+The first lines in the datafile contain all sorts of clarification and extra information. It is important to keep this information in the file, to make sure that anyone who reads the file can understand its contents. However, our _program_ doesn't need them, so we should implement it in such a way that it _skips_ these lines when it processes the file.
 
-Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should loop over the data until it passes all lines containing extra information. Try to find something that is indicative of the lines containing data (or some marker in the lines just before it), and only start saving the data to your list of dates and temperatures when this condition is met.
+Write a function named `read_data()` that accepts a `filename` and returns two lists: one with all dates, and one with all temperatures. The function should skip all lines containing information about the dataset, and only load the dates and temperatures of the measurements into lists. Look for a distinguishing feature or marker in the lines of data or in the lines preceding them. Only begin storing the data into the list of dates and temperatures when this condition is satisfied!
 
 > **Making the problem smaller:** In order to filter out the lines with extra information, you will need to find some condition that can distinguish the relevant lines. To test your condition, it would be useful to print each of the lines *and add an extra print when your condition is met*. However, this would result in way too many prints for these large data files. Instead, you can make the problem smaller by only copying a few of the lines to a new file and using this file to test your solution first.
 
