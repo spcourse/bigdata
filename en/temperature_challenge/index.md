@@ -1,4 +1,12 @@
-<details markdown="1"><summary  markdown="span"> **Extra challenge:** </summary> If you are up for a challenge, you can also use coordinates and create a barchart that has both summer and tropical days in it! Have a look at and then run the example below:
+## Temperature challenges
+
+These assignments are not required, but enable you to practice some more of the concepts of this module.
+
+### Challenge 1:
+
+If you are up for a challenge, you can also use coordinates and create a barchart that has both summer and tropical days in it!
+
+Have a look at and then run the example below:
 
 ~~~
 import matplotlib.pyplot as plt
@@ -21,9 +29,8 @@ plt.xticks(x_ticks, schools)
 plt.legend()
 plt.show()
 ~~~
-</details>
 
-### Assignment 4: first heat wave
+### Challenge 2: first heat wave
 
 In the Netherlands we speak of a heat wave when the maximum temperature has been 25◦C or higher (summer days) for at least five uninterrupted days of which at least three days had maximum temperatures of at least 30◦C (tropical days).
 
@@ -32,3 +39,7 @@ Write a function named `get_first_heat_wave()` that returns the *first* year tha
 Print the result of the function in a neatly formatted line.
 
 > **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If your code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
+
+**This challenge can be tested by checkpy!** You can just use the original test for this:
+
+    checkpy temperature
