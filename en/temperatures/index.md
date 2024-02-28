@@ -49,7 +49,7 @@ Write two functions named `get_highest_temp()` and `get_lowest_temp()` that retu
 
 > **Making the problem smaller:** Verifying that your code determines the correct minimum and maximum values can be challenging when dealing with large temperature and date lists. However, one advantage of using function is the ability to test them in isolation. For example, you can test the `get_highest_temp` function using straightforward test inputs:
 >
-    max_dates = ["day 1", "day 2", "day 3", "day 4]
+    max_dates = ["day 1", "day 2", "day 3", "day 4"]
     max_temps = [12.5, -18.8, 19.2, 9.3]
     highest_temp_date, highest_temp = get_highest_temp(max_dates, max_temps)
     print(highest_temp_date, highest_temp)
