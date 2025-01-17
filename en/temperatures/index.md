@@ -2,7 +2,7 @@
 
 ![](../../assets/KaartNederlandKlein.png){:.inline}
 
-Let's do our part for the climate discussion and analyze the data provided by the ECA (European Climate Assessment) [available](http://eca.knmi.nl/dailydata/predefinedseries.php) in big data files. We'll limit ourselves to the data pertaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
+Let's do our part for the climate discussion and analyze the data provided by the ECA (European Climate Assessment) [available](https://www.ecad.eu/) in big data files. We'll limit ourselves to the data pertaining to the maximum and minimum temperatures for each day measured in De Bilt since 1901.
 
 > **Making the problem smaller:** One of the key skills to practice in this assignment will be reducing a problem to something simpler, where you can easily print all the steps (without becoming impossible to keep track off) and then actually still verify the solution is correct. Having a data set that is too large too print and verify is a very common problem in data processing, and so we'll explicitly practice with this during this assignment.
 
