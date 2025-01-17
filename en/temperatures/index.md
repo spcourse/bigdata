@@ -152,7 +152,7 @@ Write a function named `get_first_heat_wave()` that returns the *first* year tha
 
 Print the result of the function in a neatly formatted line.
 
-> **Making the problem smaller:** This problem can be a little trickier then it might look at first glance. If your code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
+> **Making the problem smaller:** This problem can be a little trickier than it might look at first glance. If your code is not giving the correct output right away, remember to go back to some smaller test lists and debug with those first.
 
 ### Design: clean code and clean output
 
