@@ -146,7 +146,7 @@ plt.show()
 
 ### Assignment 4: first heat wave
 
-In the Netherlands we speak of a heat wave when the maximum temperature has been 25◦C or higher (summer days) for at least five uninterrupted days of which at least three days had maximum temperatures of at least 30◦C (tropical days).
+In the Netherlands, a heat wave is a period of at least five summers days (maximum temperature of at least 25◦C). The period should also contain at least three tropical days (maximum temperature of at least 30◦C). For example the series of these maximum temperatures would constitute a heat wave: 30, 25, 26, 25, 31, 33.
 
 Write a function named `get_first_heat_wave()` that returns the *first* year that a heatwave was found within the dataset following this definition. The function should accept two arguments: `max_dates` and `max_temps`.
 
