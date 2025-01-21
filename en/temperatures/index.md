@@ -23,7 +23,7 @@ Throughout the following assignment:
 
 * You are allowed to import the `matplotlib` and `math` libraries.
 
-* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, `split()`, and `strip()`.
+* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, `split()`, and [`strip()`](/python/en/strings#string-methods).
 
 * You cannot use the functions `min()`, `max()`, and `.index()`
 

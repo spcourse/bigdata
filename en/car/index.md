@@ -26,7 +26,7 @@ Write a program **car_ride.py** that traverses the data file, processes said dat
 
 * You are allowed to import the `matplotlib` and `math` libraries.
 
-* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, [`split()`](/python/en/strings#string-methods), and `strip()`.
+* You are **not allowed to import** any other python libraries, especially not the `csv` library. You're supposed to read the file using basic python operations such as `open()`, `close()`, `split()`, and [`strip()`](/python/en/strings#string-methods).
 
 ## Testing
 
