@@ -1,4 +1,8 @@
-### Cold colder coldest
+# Cold colder coldest
+
+Create a file called `weather3.py` and answer the question below.
+
+### Assignment
 
 What is the longest period of uninterrupted days that had no temperatures above or equal to 0◦C (i.e. **maximum** temperature below 0◦C)? What was the date of the last day of this period of time?
 
