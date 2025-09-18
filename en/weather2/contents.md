@@ -2,13 +2,7 @@
 
 Create a file called `weather2.py` and answer the question below.
 
-***Tip:*** You will need to read the same data again. You can use the `read_data(filename)` function from the previous assignment. But a more elagant solution is to import it from that file. You can do that using the `import` statement:
-
-    # Import the function read_data from `weather.py`. 
-    # (This only works when this file and `weather.py` exist in the same folder)
-    from weather1 import read_data  
-    max_dates, max_temps = read_data('DeBiltTempMaxOLD.txt')
-    min_dates, min_temps = read_data('DeBiltTempMinOLD.txt')
+***Tip:*** You will need to read the same data again. You can copy the `read_data(filename)` function from the previous assignment. 
 
 ### Assignment 
 
